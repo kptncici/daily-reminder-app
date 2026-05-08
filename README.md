@@ -1,101 +1,59 @@
 # 🧠 Daily Reminder App
 
-Aplikasi **Pengingat Harian** buatan Flutter yang modern, ringan, dan powerful. Didesain untuk membantu pengguna 
-mengatur jadwal dan menerima notifikasi tepat waktu. Terintegrasi penuh dengan **Firebase Firestore** dan **Notifikasi Lokal**.
+A modern and elegant Flutter reminder application designed to help users manage schedules and receive timely notifications.
+
+Built with ❤️ using Flutter, Firebase Firestore, and Local Notifications.
 
 ---
 
-## ✨ Fitur Unggulan
+# ✨ Features
 
-- ✅ Tambah, edit, dan hapus pengingat
-- ⏰ Notifikasi lokal **4x** (15, 10, 5 menit & tepat waktu)
-- ☁️ Sinkronisasi data ke **Firebase Firestore**
-- 🎨 Dukungan tema kustom (terang & gelap)
-- 🔍 Sortir dan filter pengingat
-- 📦 Penyimpanan lokal dengan backup otomatis
-
----
-
-
-## 🔧 Teknologi yang Digunakan
-
-- [Flutter](https://flutter.dev/)
-- [Firebase Firestore](https://firebase.google.com/docs/firestore)
-- [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)
-- [provider](https://pub.dev/packages/provider)
-- [shared_preferences](https://pub.dev/packages/shared_preferences)
+✅ Add, edit, and delete reminders  
+✅ Local notifications (15, 10, 5 minutes & exact time)  
+✅ Firebase Firestore integration  
+✅ Beautiful modern UI  
+✅ Splash screen with custom branding  
+✅ Reminder status system  
+✅ Sort reminders  
+✅ Mark reminders as completed  
+✅ Offline-friendly architecture  
+✅ Theme customization  
+✅ Responsive design  
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
+# 📱 Screenshots
 
-1. **Clone repo ini:**
-   git clone https://github.com/username/daily_reminder_app.git
-   cd daily_reminder_app
-2. **Install dependensi:**
-   flutter pub get
-3. **Tambahkan file Firebase:**
-   google-services.json (Android)
-   firebaseConfig.dart (Flutter Web)
-   Simpan di folder lib/services/firebaseConfig.dart
-4. **Jalankan aplikasi:**
-   flutter run
+## Splash Screen
+Modern animated splash screen with custom logo.
 
+## Home Screen
+Clean and premium reminder management interface.
 
-   ---
+## Add Reminder
+Elegant form UI for creating reminders.
 
-## 📁 Struktur Proyek
+## Detail Reminder
+Detailed reminder page with modern card layout.
 
-lib/
-├── main.dart
-├── app.dart
-├── theme/
-├── models/
-├── providers/
-├── screens/
-├── services/
-├── utils/
+---
 
+# 🛠️ Technologies Used
 
-   ---
+- Flutter
+- Firebase Firestore
+- Provider
+- flutter_local_notifications
+- Shared Preferences
+- Firebase Core
+- Intl
+- Material 3 Design
 
-## 📌 Catatan
+---
 
--Aplikasi ini dirancang agar tetap berjalan meski offline
--Notifikasi tidak terganggu oleh fitur tema atau sinkronisasi data
--Semua data disimpan ke Firebase saat online dan tetap tersimpan lokal
+# 🚀 Getting Started
 
-   ---
+## Clone Repository
 
-## 👨‍💻 Kontribusi
-
-Pull request dan kontribusi sangat diterima. Untuk bug atau fitur baru, silakan buat issue terlebih dahulu.
-
- ---
-
-## NAMA KELOMPOK: KELOMPOK 2
-Anggota:
-- Nurfadilla Rhamadani (23621039)
-- Diva Riantika Rhamadanty (23621035)
-- Wa Shinta (23621012)
-- Magfira Rahma Arilaha (23621001)
-- Gracelia Putri B.M (22621019)
-- Muhammad Fachrul Syam (23621057)
-
-  Link GitHub: https://github.com/kptncici/daily_reminder_app.git
-
-
-   ---
-
-## 📄 Lisensi
-
-MIT License © 2025 kptncici
-
-
-
-
-
-
-
-
-
+```bash
+git clone https://github.com/YOUR_USERNAME/daily-reminder-app.git
