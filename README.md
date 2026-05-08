@@ -25,16 +25,26 @@ Built with ❤️ using Flutter, Firebase Firestore, and Local Notifications.
 # 📱 Screenshots
 
 ## Splash Screen
-Modern animated splash screen with custom logo.
+
+![Splash Screen](assets/screenshots/splash.jpg)
+
+---
 
 ## Home Screen
-Clean and premium reminder management interface.
+
+![Home Screen](assets/screenshots/home-empty.jpg)
+
+---
 
 ## Add Reminder
-Elegant form UI for creating reminders.
 
-## Detail Reminder
-Detailed reminder page with modern card layout.
+![Add Reminder](assets/screenshots/add-reminder.jpg)
+
+---
+
+## Reminder List
+
+![Reminder List](assets/screenshots/home-filled.jpg)
 
 ---
 
@@ -57,3 +67,53 @@ Detailed reminder page with modern card layout.
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/daily-reminder-app.git
+```
+
+## Install Dependencies
+
+```bash
+flutter pub get
+```
+
+## Run App
+
+```bash
+flutter run
+```
+
+---
+
+# 🔥 Firebase Setup
+
+Add your Firebase configuration files:
+
+- google-services.json
+- firebase_options.dart
+
+Enable:
+- Firestore Database
+- Firebase Authentication (optional)
+
+---
+
+# 📂 Project Structure
+
+```text
+lib/
+├── models/
+├── providers/
+├── screens/
+├── services/
+├── theme/
+├── main.dart
+```
+
+# 📄 License
+
+This project is for educational purposes.
+
+---
+
+# ⭐ Final Project
+
+This application was developed as a Flutter prototype project with modern UI/UX design and Firebase integration.
