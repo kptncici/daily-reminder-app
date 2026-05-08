@@ -24,27 +24,13 @@ Built with ❤️ using Flutter, Firebase Firestore, and Local Notifications.
 
 # 📱 Screenshots
 
-## Splash Screen
+![Splash Screen](assets/screenshots/splash.jpeg)
 
-![Splash Screen](assets/screenshots/splash.jpg)
+![Home Screen](assets/screenshots/home-empty.jpeg)
 
----
+![Add Reminder](assets/screenshots/add-reminder.jpeg)
 
-## Home Screen
-
-![Home Screen](assets/screenshots/home-empty.jpg)
-
----
-
-## Add Reminder
-
-![Add Reminder](assets/screenshots/add-reminder.jpg)
-
----
-
-## Reminder List
-
-![Reminder List](assets/screenshots/home-filled.jpg)
+![Reminder List](assets/screenshots/home-filled.jpeg)
 
 ---
 
